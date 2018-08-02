@@ -1,8 +1,8 @@
 # weighted-levenshtein
 
 This library is the same as levenshtein but it will get a weight function. This
-function gets two characters and must return a value between and including 0 and
-1. The regular levenshtein algo will always return 0 if the characters are the
+function gets two characters and must return a value between and including 0 and 1.
+The regular levenshtein algo will always return 0 if the characters are the
 same and 1 if they are different. The function will _not_ be called if the
 chacters are identical, so you only need to handle returning a weight for
 different characters. Also the function is defaulted to the regular levenshtein
