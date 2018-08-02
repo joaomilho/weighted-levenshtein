@@ -10,7 +10,7 @@ bahavior.
 
 Ex:
 
-```
+```js
 const weightedLevenshtein = require('weighted-levenshtein')
 // not passing the weight function will default to regular levenshtein behavior
 const regularLevenshtein = weightedLevenshtein()
